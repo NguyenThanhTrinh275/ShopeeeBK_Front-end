@@ -72,23 +72,23 @@ SPBK/
 │   │   ├── AuthContext.js      # Xác thực
 │   │   ├── CartContext.js      # Giỏ hàng
 │   │
-│   ├── App.js                  # Ứng dụng chính
-│   ├── index.js                # Điểm vào chính
+│   ├── App.js                 
+│   ├── index.js                
 │
-│── backend/                    # Backend (nếu có)
-│   ├── models/                 # Mô hình dữ liệu
-│   ├── controllers/            # Xử lý logic
-│   ├── routes/                 # API endpoints
-│   ├── config/                 # Cấu hình (CSDL, môi trường)
-│   ├── server.js               # Server chính
+│── backend/                  
+│   ├
+│   ├
+│   ├
+│   ├
+│   ├
 │
 │── package.json                # Cấu hình dự án
 │── README.md                   # Hướng dẫn sử dụng
 
-**Sử dụng Fake API trong thư mục database trước khi Back-end trả ra API thật** (tìm cách config, install rồi chạy nha hihi)
+**Sử dụng Fake API trong thư mục database trước khi Back-end trả ra API thật** (tìm cách config, install rồi chạy nha hihi) hình như là cd vô thư mục rồi start thôi
 
 ## TASK 1 (ver 1.0 ngày 07/3/2025)
-  - (Vũ): inner trang `Home`
+  - (Vũ): inner menu trang `Home`
   - (Toàn): code giao diện trang `Sign in`, `Login` trong file, thư mục đã tạo sẵn trong `pages`
   - (Sếp Mẫn): code giao diện `Header` `Footer` mặc định (trong `component`) (route đến trang nào thì header, footer đều giống nhau) 
 **Dựa vào giao diện trang shopee nha ae**
