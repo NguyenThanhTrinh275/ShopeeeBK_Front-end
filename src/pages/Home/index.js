@@ -1,9 +1,14 @@
-function Home() 
-{
+import Banner from "./banner";
+import DanhMuc from "./DanhMuc";
+import ListSp from "./ListSp";
+
+function Home() {
     return (
         <>
-            Home
+            <Banner />
+            <DanhMuc />
+            <ListSp />
         </>
-    )
+      );
 }
 export default Home;
