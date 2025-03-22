@@ -1,0 +1,31 @@
+.product {
+  margin-left: 180px;
+  &--card {
+    border: 2px solid #F2F4F7;
+    border-radius: 10px;
+    margin: 10px 10px;
+    max-width: 270px;
+    height: 350px;
+    padding: 15px 15px;
+    transition: box-shadow 0.3s ease;
+    &:hover{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+
+    }
+}
+  &--image img {
+    border-radius: 10px;
+    max-width: 240px;
+    max-height: auto;
+    // padding: 15px 15px;
+  }
+  &--name {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  &--price {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
